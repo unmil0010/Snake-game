@@ -1,0 +1,12 @@
+[project]
+name = "unmil-snake-game"
+version = "1.0.0"
+description = "A classic Snake game built with Python turtle graphics."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
